@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class Skills
+{
+   /**
+    * Insert generic explanation here. This text doesn't serve any purpose at the moment
+    * (beyond aestetics), but I'm 25% sure that I'll find a good reason for it later.
+    */
+    
+   /**
+    * This list is for NON-ACTIVE skills under the [Guerrilla] Skill Tree
+    */
+   
+   //[Skill] Sentry
+   static int SentryTS = 1;
+   static int SentryTU = 2;
+   
+   //[Skill] Ready
+   static double ReadyLS = 0.08;
+   
+   //[Skill] Laser Sight
+   static double LaserSightTA = 0.1;
+   
+   //[Skill] Willing 
+   static double WillingSRR = 0.15;
+   static double WillingSRD = 0.12;
+   
+   //[Skill] Grenadier
+   static double GrenadierNC = 1;
+   
+   /**
+    * This list is for skills under the "Gunpowder" Skill Tree
+    */
+   
+   //[Skill] Impact
+   static double ImpactGD = 0.04;
+   static double ImpactMD = 0.03;
+   
+   //[Skill] Expertise
+   static double ExpertSS = 0.14;
+   static double ExpertAS = 0.14;
+   
+   public static void main(String[] args)
+   {
+        
+   }
+}
