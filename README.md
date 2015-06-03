@@ -7,14 +7,14 @@ The general rule for variable abbreviations goes as follows:
  
 So a skill such as :
 
-Willing
-+15% Shield Recharge Rate per Level
--12%  Shield Recharge Delay per Level
+	Willing
+	+15% Shield Recharge Rate per Level
+	-12%  Shield Recharge Delay per Level
 
 Would be abbreviated to:
 
-WillingSRR;
-WillingSRD;
+	WillingSRR;
+	WillingSRD;
 
 
 Axton's Abbreviations
