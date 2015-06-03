@@ -19,9 +19,9 @@ Would be abbreviated to:
 
 Axton's Abbreviations
 
-Sentry
-SentryTS - Shots fired by turret per burst
-SentryTU - How long the turret's active
-
-Ready
-ReadyLS - Reload Speed
+	//Sentry
+	SentryTS; //Shots fired by turret per burst
+	SentryTU; //How long the turret's active
+	
+	//Ready
+	ReadyLS; //Reload Speed
