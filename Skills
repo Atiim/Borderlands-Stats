@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class Axton
+{
+   /**
+    * Insert generic explanation here. This text doesn't serve any purpose at the moment
+    * (beyond aestetics), but I'm 25% sure that I'll find a good reason for it later.
+    */
+    
+   /**
+    * This list is for NON-ACTIVE skills under the [Guerrilla] Skill Tree
+    */
+   
+   //[Skill] Sentry
+   static int SentryTurretShots = 1;
+   static int SentryTurretUpTime = 2;
+   
+   //[Skill] Ready
+   static double ReadyLoadSpeed = 0.08;
+   
+   //[Skill] Laser Sight
+   static double LSTurretAccuracy = 0.1;
+   
+   //[Skill] Willing 
+   static double WillingShieldRegen = 0.15;
+   static double WillingShieldDelay = 0.12;
+   
+   //[Skill] Grenadier
+   static double GrenadierNadeCapacity = 1;
+   
+   /**
+    * This list is for skills under the "Gunpowder" Skill Tree
+    */
+   
+   //[Skill] Impact
+   static double ImpactGunDamage = 0.04;
+   static double ImpactMeleeDamage = 0.03;
+   
+   //[Skill] Expertise
+   static double ExpertSwampSpeed = 0.14;
+   static double ExpertAimSpeed = 0.14;
+   
+   public static void main(String[] args)
+   {
+        
+   }
+}
