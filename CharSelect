@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class CharSelect extends Effects
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Vault Hunter: ");
+        String Hunter = in.next();
+        
+        if (Hunter == "Axton")
+        {
+            AxtonShields();
+        }
+    }
+}
