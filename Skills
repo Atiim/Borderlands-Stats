@@ -40,8 +40,5 @@ public class Skills
    static double ExpertSS = 0.14;
    static double ExpertAS = 0.14;
    
-   public static void main(String[] args)
-   {
-        
-   }
+   
 }
