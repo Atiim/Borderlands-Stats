@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Effects extends Skills
+{
+    public static void main(String[] args)
+    {
+        AxtonShields();
+    }
+    
+    public static void AxtonShields()
+    {
+        Scanner in = new Scanner(System.in); bjb
+        System.out.print("Shield Recharge Rate: ");
+        double ShieldRR = in.nextDouble();
+       
+        new Scanner(System.in);
+        System.out.print("Shield Recharge Delay: ");
+        double ShieldRD = in.nextDouble();
+        
+        new Scanner(System.in);
+        System.out.print("Willing Level: ");
+        int WillingLvl = in.nextInt();
+        
+        
+        //Calculates the new Shield Regeneration
+        double ShieldRR1 = WillingLvl * WillingSRR;
+        double ShieldRR0 = ShieldRR * (1 + ShieldRR1);
+        
+        System.out.println("Shield Recharge Rate: " + ShieldRR0);
+    }
+}
